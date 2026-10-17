@@ -5,6 +5,7 @@
 @media(max-width:650px){.container{width:min(100% - 32px,520px)}.nav{height:66px}.menu-toggle{display:block}.nav-links{display:none;position:absolute;top:65px;left:0;right:0;padding:18px 22px 22px;background:#f8faff;border-bottom:1px solid var(--line);flex-direction:column;align-items:stretch;gap:16px}.nav-links.open{display:flex}.nav-links .nav-contact{text-align:center}.section{padding:72px 0}.hero{padding:58px 0 65px}.hero-grid{grid-template-columns:1fr}.hero-card-wrap{min-height:360px;margin-top:12px}.orbit-one{width:330px;height:250px}.orbit-two{width:300px;height:290px}.profile-card{width:min(100%,340px)}.chip-top{right:0;top:25px}.chip-bottom{left:0;bottom:20px}.two-col,.contact-panel{grid-template-columns:1fr;gap:22px}.quick-facts{gap:20px}.skills-grid,.projects-grid{grid-template-columns:1fr}.skill-card p{min-height:0}.project-card:last-child{display:block;grid-column:auto}.project-card:last-child .project-art{height:205px;min-height:0}.project-content p{min-height:0}.contact-box{padding:23px}.footer-inner{flex-wrap:wrap}.footer-inner p:nth-child(2){order:3;width:100%}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{transition:none!important}}
 
+/* Project card images */
 .project-image {
   position: relative;
   width: 100%;
@@ -30,3 +31,4 @@
   background: rgba(0, 0, 0, 0.7);
   border-radius: 5px;
   font-size: 11px;
+}
